@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Fresher = () => {
     const fresher = [
@@ -52,7 +53,7 @@ const Fresher = () => {
                 }
             </div>
             <div className='flex  justify-center'>
-                <button className="btn btn-primary mt-6">See All</button>
+                <Link to='/allfresher'>  <button className="btn btn-primary mt-6">See All</button></Link>
             </div>
         </div>
     );
