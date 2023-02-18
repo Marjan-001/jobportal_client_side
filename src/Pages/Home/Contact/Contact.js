@@ -18,8 +18,11 @@ const Contact = () => {
                     <label className='text-orange-500 font-bold mb-1 text-xl' htmlFor="">Message:</label>
                     <input type="text" placeholder="Type here" className="input input-bordered input-warning w-full max-w-xs" />
                 </div>
-
+                <div className='flex  justify-center'>
+                    <button className="btn btn-primary mt-6">Send</button>
+                </div>
             </form>
+
 
         </div>
     );
